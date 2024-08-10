@@ -1,8 +1,8 @@
 void main(){
-  int ramSize=8;
-  if(ramSize==4 || ramSize<8){
-    print("Can't run flutter Project");
+  var x=11;
+  if(x%2==0){
+    print("Number is Even Number");
   }else{
-    print("Can run Flutter Project");
+    print("Number is Odd Number" );
   }
 }
